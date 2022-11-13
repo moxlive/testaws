@@ -27,3 +27,4 @@ replay_pid*
 
 # target
 rest/HelloWorld/target/
+rest/HelloWorld/.idea/
