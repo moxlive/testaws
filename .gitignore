@@ -28,3 +28,6 @@ replay_pid*
 # target
 rest/HelloWorld/target/
 rest/HelloWorld/.idea/
+
+# track everything in docker folder
+!docker/
