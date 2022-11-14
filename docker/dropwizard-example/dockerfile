@@ -1,0 +1,6 @@
+FROM amazoncorretto:19
+WORKDIR /opt/dropwizard
+COPY hello-world-1.0-SNAPSHOT.jar /opt/dropwizard
+COPY hello-world.yml /opt/dropwizard
+EXPOSE 8080 8081
+ENTRYPOINT ["java", "-jar", "hello-world-1.0-SNAPSHOT.jar", "server", "hello-world.yml"]
